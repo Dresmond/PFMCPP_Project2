@@ -232,37 +232,39 @@ int main()
     //example of calling that function
     rentACar(6, 2); 
     
-        //1)  int addIntegers( int, int )
-	  int return1 = addIntegers(1, 2);
-    
+    //1)  int addIntegers( int, int )
+    int return1 = addIntegers(1, 2);
+
     //2)  int goUpOneFloor( int );
-	  int return2 = goUpOneFloor(3); 
+    int return2 = goUpOneFloor(3); 
     
     //3)  char playMinorChord( char, char );
     playMinorChord('E', 'd');   
- 
+
     //4)  void playSound( float, int );
-	  playSound(440.5, 10);
-    	
+    playSound(440.5, 10);
+
     //5)  void moveEye( int, char );
-	  moveEye(30, 'y'); 
-    
+    moveEye(30, 'y'); 
+
     //6) int adjCompressor( double, double, double, double );
-	  int return6 = adjCompressor(1.5, 0.12, 480.4, 0.6 ); 
-    
+    int return6 = adjCompressor(1.5, 0.12, 480.4, 0.6 ); 
+
     //7) int playNote( int, int, int, int );
-	  int return7 = playNote(1, 1, 0, 3); 
-    
+    int return7 = playNote(1, 1, 0, 3); 
+
     //8) int moveShip( float, float, float, int, float );
-	  int return8 = moveShip(32.8, 12.5, 67.20, 1, 679.999);
-    
+    int return8 = moveShip(32.8, 12.5, 67.20, 1, 679.999);
+
     //9) int drawerSwitch( int, int);
-	  int return9 = drawerSwitch( 4, 1);
-    
+    int return9 = drawerSwitch( 4, 1);
+
     //10) void playMajorScale( char, char );
-	  playMajorScale('9', '2');  
+    playMajorScale('9', '2');  
     
     std::cout << "good to go!" << std::endl;
+
+    FIXME can you use the ignoreUnused(...) here to clear the warnings that remain?
     return 0;    
 }
 
