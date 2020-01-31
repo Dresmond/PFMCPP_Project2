@@ -264,7 +264,16 @@ int main()
     
     std::cout << "good to go!" << std::endl;
 
-    FIXME can you use the ignoreUnused(...) here to clear the warnings that remain?
+   /* 
+   FIXME can you use the ignoreUnused(...) here to clear the warnings that remain?
+   */
+
+   ignoreUnused( return1 ); //call the function with the variables triggering warnings
+   ignoreUnused( return2 ); //call the function with the variables triggering warnings
+   ignoreUnused( return6 ); //call the function with the variables triggering warnings
+   ignoreUnused( return7 ); //call the function with the variables triggering warnings
+   ignoreUnused( return8 ); //call the function with the variables triggering warnings
+   ignoreUnused( return9 ); //call the function with the variables triggering warnings
     return 0;    
 }
 
